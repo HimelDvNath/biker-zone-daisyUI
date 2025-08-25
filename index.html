@@ -20,7 +20,7 @@
             extend: {
                 colors: {
                     clifford: '#da373d',
-                    'bike-primary': '#E76F51',
+                    'bike-primary': '#E76F51', 
                     'herocolor':'#E76F51',
                 }
             }
@@ -36,7 +36,7 @@
 </head>
 <body class="poppins-font">
     <!-- ========== Start Section Header ========== -->
-    <header class="md:container mx-auto">
+    <header class="md:container mx-auto mb-25">
         <nav class="mb-10">
             <div class="navbar bg-base-100 shadow-sm">
                 <div class="flex-1">
@@ -157,6 +157,25 @@
         </div>
     </header>
     <!-- ========== End Section Header ========== -->
+    <!-- ========== Start Section main ========== -->
+    <main class="md:container mx-auto">
+        <!-- featured bikes  -->
+        <section class="mb-25 mx-auto">
+            <!-- text  -->
+            <div class="text-center mb-12">
+                <h1 class="font-bold text-5xl mb-6">Fetured Bikes In This Year</h1>
+                <p class="text-bike-primary text-base text-xs  border-y-amber-700 mb-1">Best bike collection</p>
+                <hr class="border-bike-primary w-[58.5px] justify-self-center">
+            </div>
+            <!-- images  -->
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-40">
+                <div class="justify-self-center grayscale"><img src="images/others/feature-bike.png" alt=""></div>
+                <div class="justify-self-center"><img src="images/others/feature-bike.png" alt=""></div>
+                <div class="justify-self-center grayscale"><img src="images/others/feature-bike.png" alt=""></div>
+             </div>
+        </section>
+    </main>
+    <!-- ========== End Section main ========== -->
     
     <main></main>
     <footer></footer>
